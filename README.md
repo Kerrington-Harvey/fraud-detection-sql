@@ -86,10 +86,10 @@ Stripe dispute management and friendly fraud detection.
 
 ## Key Context
 
-- All data is simulated and fictional — for portfolio demonstration only
+- All data is simulated and fictional - for portfolio demonstration only
 - Schema reflects the actual MySQL structure used at Custie during the pilot
 - Queries are written in standard MySQL syntax
-- No third-party fraud tooling was used at Custie — all detection logic was manual and process-driven
+- No third-party fraud tooling was used at Custie - all detection logic was manual and process-driven
 - The SQL project demonstrates the data layer that would underpin the operational framework documented in [custie-fraud-framework](https://github.com/Kerrington-Harvey/custie-fraud-framework)
 
 ---
