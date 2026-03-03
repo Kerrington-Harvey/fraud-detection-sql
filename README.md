@@ -84,6 +84,24 @@ Stripe dispute management and friendly fraud detection.
 
 ---
 
+### `07_detection_query_variations.sql`
+Modified and extended versions of the fraud detection queries — built after running the base queries in MySQL Workbench.
+
+| Query | Use Case |
+|---|---|
+| Flagged providers with days-since-onboarding | Isolates provider flags and surfaces how long they've been open |
+| Flagged accounts with no enforcement action | Gap detection - flagged but no action taken on record |
+| Tightened escalation threshold | 2+ high-risk complaints only - reduces queue noise |
+| Active account escalation filter | Escalation logic scoped to active accounts only |
+| 30-day rolling complaint window | Extended from 7 days to surface emerging patterns |
+| Stale high-risk complaints | Open high-risk complaints aging past 7 days - SLA risk |
+| Duplicate emails with prior rejection flag | Surfaces rejected actors re-registering under same email |
+| Days from approval to enforcement action | Measures detection speed across the pilot period |
+| New vs known bad actor filter | Separates net-new off-platform signals from already-actioned participants |
+| Complaint-to-action pipeline | Traces complaints that resulted in enforcement decisions |
+
+---
+
 ## Key Context
 
 - All data is simulated and fictional - for portfolio demonstration only
