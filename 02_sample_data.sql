@@ -15,7 +15,7 @@ INSERT INTO participants VALUES
 ('P004','provider','sole_proprietor','Alicia','Hernandez','alicia.hernandez@email.com','972-555-0104','2345 Cedar Ln','Irving','TX','75061','2025-07-08 14:30:00','active',0,NULL),
 ('P005','provider','sole_proprietor','Brandon','Moore','brandon.moore@email.com','469-555-0105','6789 Pine Rd','Frisco','TX','75034','2025-07-15 09:45:00','active',0,NULL),
 ('P006','provider','sole_proprietor','Tanya','Robinson','tanya.robinson@email.com','469-555-0106','1122 Birch Ct','McKinney','TX','75070','2025-07-15 13:20:00','active',0,NULL),
-('P007','provider','sole_tributor','Kevin','Lewis','kevin.lewis@email.com','214-555-0107','3344 Walnut St','Garland','TX','75040','2025-07-22 10:10:00','active',0,NULL),
+('P007','provider','sole_proprietor','Kevin','Lewis','kevin.lewis@email.com','214-555-0107','3344 Walnut St','Garland','TX','75040','2025-07-22 10:10:00','active',0,NULL),
 ('P008','provider','sole_proprietor','Stephanie','Young','stephanie.young@email.com','214-555-0108','5566 Spruce Ave','Mesquite','TX','75150','2025-07-22 15:05:00','active',0,NULL),
 ('P009','provider','sole_proprietor','Andre','Scott','andre.scott@email.com','972-555-0109','7788 Ash Blvd','Arlington','TX','76001','2025-08-05 09:30:00','active',0,NULL),
 ('P010','provider','sole_proprietor','Monique','King','monique.king@email.com','972-555-0110','9900 Hickory Dr','Grand Prairie','TX','75050','2025-08-05 11:45:00','active',0,NULL),
@@ -139,5 +139,3 @@ INSERT INTO transactions VALUES
 ('TXN013','C003','P003',120.00,'USD','ch_013','completed','2025-10-20 14:00:00','Dog training - 1 session'),
 ('TXN014','C030','P015',35.00,'USD','ch_014','completed','2025-11-01 09:00:00','Dog walking - 1 hour'),
 ('TXN015','C035','P018',85.00,'USD','ch_015','completed','2025-11-10 10:00:00','Full grooming service');
-
-echo "Sample data done"
