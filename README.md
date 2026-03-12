@@ -1,6 +1,6 @@
 # Fraud Detection SQL - Custie Platform
 
-SQL queries and database schema for fraud operations, trust and safety, and risk reporting use cases. Built on a simulated MySQL database reflecting the architecture and data structure of Custie, a B2B/B2C pet-care platform.
+SQL queries and database schema for fraud operations, trust and safety, and risk reporting use cases. Built on a simulated MySQL database reflecting the architecture and data structure of Custie, a technology platform.
 
 This project demonstrates how a fraud operations function would query platform data directly - for onboarding review, post-onboarding risk monitoring, KPI reporting, and chargeback investigation.
 
